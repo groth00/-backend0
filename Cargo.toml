@@ -1,0 +1,13 @@
+[package]
+name = "backend0"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+actix-web = "4"
+confik = "0.14.0"
+dotenvy = "0.15.7"
+env_logger = "0.11.8"
+fred = "10.1.0"
+log = "0.4.27"
+sqlx = {version = "0.8", features = ["sqlite", "runtime-tokio"] }
