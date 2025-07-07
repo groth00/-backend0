@@ -322,6 +322,7 @@ dependencies = [
  "env_logger",
  "fred",
  "log",
+ "serde",
  "sqlx",
 ]
 

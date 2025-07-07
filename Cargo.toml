@@ -10,4 +10,5 @@ dotenvy = "0.15.7"
 env_logger = "0.11.8"
 fred = "10.1.0"
 log = "0.4.27"
+serde = { version = "1.0.219", features = ["derive"] }
 sqlx = {version = "0.8", features = ["sqlite", "runtime-tokio"] }
